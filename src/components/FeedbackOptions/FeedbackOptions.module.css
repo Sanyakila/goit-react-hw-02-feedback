@@ -1,0 +1,20 @@
+.buttonContainer {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    justify-content: center;
+}
+
+.feedbackButton {
+    cursor: pointer;
+    padding: 10px;
+    border-radius: 2px;
+
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 700;
+    font-size: 22px;
+}
+
+.feedbackButton:active{
+    background-color: blueviolet;
+}
